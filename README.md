@@ -1,17 +1,29 @@
-# Portfolio Website
+##Personal Portfolio Website
 
-A personal portfolio website showcasing my skills, projects, and contact information.
+Welcome to my personal portfolio website! This project showcases my skills, projects, education, and contact information.
 
-## Technologies Used
-- HTML
-- CSS
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
 - JavaScript
 
-## Features
+## ✨ Features
+
 - Responsive Design
 - About Me Section
-- Projects Showcase
-- Contact Information
+- Skills Showcase
+- Projects Section
+- Contact Form
+- Modern UI
 
-## Author
-Rakshita Shirahatti
+
+
+## 👩‍💻 Author
+
+**Rakshita Shirahatti**
+
+Aspiring Java Developer | Software Engineer
+
+📧 Email: rakshitashirahatti1804@gmail.com
