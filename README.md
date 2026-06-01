@@ -1,0 +1,17 @@
+# Portfolio Website
+
+A personal portfolio website showcasing my skills, projects, and contact information.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Features
+- Responsive Design
+- About Me Section
+- Projects Showcase
+- Contact Information
+
+## Author
+Rakshita Shirahatti
