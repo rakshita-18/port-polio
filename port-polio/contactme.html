@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact</title>
+
+<link rel="stylesheet" href="contactme.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">MyPortfolio</div>
+
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="education.html">Education</a></li>
+<li><a class="active">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+
+<!-- Background Video -->
+
+<video autoplay muted loop class="bg-video">
+<source src="bg.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<section class="contact">
+
+<h1>CONTACT ME </h1>
+
+<p class="subtitle">
+Feel free to connect with me for collaborations or opportunities.
+</p>
+
+<!-- CONTACT LINKS -->
+
+<div class="contact-links">
+
+<a href="https://www.linkedin.com/in/rakshita-shirahatti-81807227b/" target="_blank" class="contact-card">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+<p>LinkedIn</p>
+</a>
+
+<a href="https://github.com/rakshita-18" target="_blank" class="contact-card">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png">
+<p>GitHub</p>
+</a>
+
+<a href="https://mail.google.com/mail/?view=cm&to=rakshitashirahatti1804@gmail.com" target="_blank" class="contact-card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+<p>Email</p>
+</a>
+
+</div>
+
+<!-- CONTACT FORM -->
+
+<div class="contact-form">
+
+<h2>YOU CAN SEND ME A MESSAGE</h2>
+
+<form id="contactForm">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="email" id="email" placeholder="Your Email" required>
+
+<textarea id="message" placeholder="Your Message" required></textarea>
+
+<div class="rating">
+<label>Rate my portfolio:</label>
+<select id="rating">
+<option value="⭐">⭐</option>
+<option value="⭐⭐">⭐⭐</option>
+<option value="⭐⭐⭐">⭐⭐⭐</option>
+<option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+<option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+</select>
+</div>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- COMMENTS SECTION -->
+
+<section class="comments">
+
+<h1>COMMENTS</h1>
+
+<div id="comments-container"></div>
+<div id="comments-container" class="comments-container"></div>
+
+</section>
+
+<script src="contactme.js"></script>
+
+</body>
+</html>

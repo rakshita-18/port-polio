@@ -1,0 +1,146 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+color:white;
+}
+
+
+/* BACKGROUND VIDEO */
+
+.bg-video{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-2;
+}
+
+.overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+z-index:-1;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+}
+.logo{
+font-weight:800;
+font-size:26px;
+color:#ffffff;
+}
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+nav ul li a.active{
+background:black;
+padding:8px 18px;
+border-radius:20px;
+}
+
+
+/* PROJECT SECTION */
+
+.projects{
+padding:80px;
+}
+
+.projects h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#ddd;
+margin-bottom:60px;
+}
+
+
+/* PROJECT CARD */
+
+.project{
+display:flex;
+gap:40px;
+margin-bottom:80px;
+align-items:center;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+
+padding:30px;
+border-radius:15px;
+}
+
+
+/* IMAGE */
+
+.project-img img{
+width:400px;
+border-radius:10px;
+}
+
+
+/* INFO */
+
+.project-info{
+max-width:600px;
+}
+
+.project-info h2{
+margin-bottom:10px;
+}
+
+.project-desc{
+color:#ddd;
+margin-bottom:10px;
+}
+
+.tech{
+color:#00ffff;
+margin-bottom:20px;
+}
+
+
+/* BUTTONS */
+
+.project-buttons a{
+text-decoration:none;
+color:white;
+
+border:1px solid white;
+padding:10px 20px;
+margin-right:15px;
+
+border-radius:8px;
+transition:0.3s;
+}
+
+.project-buttons a:hover{
+background:#00ffff;
+color:black;
+}
